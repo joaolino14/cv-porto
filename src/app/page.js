@@ -209,12 +209,13 @@ I hope I can create something interesting and helpful for other people.`
 
           <div className="relative w-64 h-64 md:w-80 md:h-80">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full blur-lg opacity-20"></div>
-            <Image
-              src="/images/profil.jpg"
-              alt="Profile"
-              fill
-              className="rounded-full object-cover border-4 border-white shadow-lg"
-            />
+             <Image 
+                  src={"/images/school.png"}
+                  alt="SMK"
+                  width={40}
+                  height={40}
+                  className="object-cover rounded-full"
+                  />
           </div>
         </section>
 
@@ -275,8 +276,9 @@ I hope I can create something interesting and helpful for other people.`
             <div className="flex flex-col md:flex-row md:items-center justify-between p-6 bg-white rounded-xl shadow-sm border border-gray-100">
               <div className="flex items-center gap-4 mb-4 md:mb-0">
                 <div>
-                  <Image 
-                  src={/images/school.png}
+                 <Image 
+                  src={"/images/school.png"}
+                  alt="SMK"
                   width={40}
                   height={40}
                   className="object-cover rounded-full"
